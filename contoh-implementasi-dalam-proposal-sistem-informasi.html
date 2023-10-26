@@ -1,0 +1,1375 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoh Implementasi Dalam Proposal Sistem Informasi - BELAJAR</title>
+    <meta name="description" content="Contoh Implementasi Dalam Proposal Sistem Informasi, , , , , , , 0, , , , , , 0, contoh-implementasi-dalam-proposal-sistem-informasi, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contoh Implementasi Dalam Proposal Sistem Informasi - BELAJAR" />
+    <meta property="og:description" content="Contoh Implementasi Dalam Proposal Sistem Informasi, , , , , , , 0, , , , , , 0, contoh-implementasi-dalam-proposal-sistem-informasi, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contoh Implementasi Dalam Proposal Sistem Informasi - BELAJAR" />
+    <meta name="twitter:description" content="Contoh Implementasi Dalam Proposal Sistem Informasi, , , , , , , 0, , , , , , 0, contoh-implementasi-dalam-proposal-sistem-informasi, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://rumahsoal.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://rumahsoal.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://rumahsoal.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://rumahsoal.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://rumahsoal.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://rumahsoal.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://rumahsoal.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://rumahsoal.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://rumahsoal.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://rumahsoal.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Contoh Implementasi Dalam Proposal Sistem Informasi</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">icankgople</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Contoh+Implementasi+Dalam+Proposal+Sistem+Informasi" alt="Contoh Implementasi Dalam Proposal Sistem Informasi">
+                    </div>
+                    <p></p>
+                    <p>tiga contoh kasus tentang pentingnya implementasi basis data dalam sistem informasi</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tiga-contoh-kasus-tentang-pentingnya-implementasi-basis-data-dalam-sistem-informasi">1.
+                                            tiga contoh kasus tentang pentingnya implementasi basis data dalam sistem informasi</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#proposal-dalam-bidang-sistem-informasi">2.
+                                            proposal dalam bidang sistem informasi</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-bentuk-implementasi-sistem-informasi">3.
+                                            apa bentuk implementasi sistem informasi?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikan-contoh-implementasi-sistem-pertahanan-negara">4.
+                                            Berikan contoh implementasi sistem pertahanan negara</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#deskripsikan-contoh-informasi-penting-dalam-proposal">5.
+                                            Deskripsikan contoh informasi penting dalam proposal!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-dan-jelaskan-implementasi-sistem-informasi-dalam-mekanisme-akuntansi">6.
+                                            sebutkan dan jelaskan implementasi sistem informasi dalam mekanisme akuntansi?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-implementasi-sistem-informasi-dan-manajemen-pertanahan-nasional-simtanas-dalam-mencegah-kepemilikan-sertifikat-ganda">7.
+                                            Bagaimana implementasi sistem informasi dan Manajemen Pertanahan Nasional (SIMTANAS) dalam mencegah kepemilikan sertifikat ganda ?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-dengan-contoh-sistem-nilai-dalam-pancasila-dan-implementasi-pancasila">8.
+                                            jelaskan dengan contoh sistem nilai dalam pancasila dan implementasi pancasila</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-manfaat-dari-implementasi-sistem-informasi-manajemen-dalam-organisasi">9.
+                                            tuliskan manfaat dari implementasi sistem informasi manajemen dalam organisasi</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#skenario-implementasi-dan-penerapan-public-key-infrastructure-dalam-suatu-sistem-informasi">10.
+                                            Skenario implementasi dan penerapan public key infrastructure dalam suatu sistem informasi.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-dan-jelaskan-implementasi-sistem-informasi-dalam-mekanisme-akuntansi">11.
+                                            sebutkan dan jelaskan implementasi sistem informasi dalam mekanisme akuntansi?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-kajian-dan-ilmu-dasar-teori-informasi-dan-komputasi-serta-implementasi-dan-aplikasinya-dalam-sistem-komputer-disebut%e2%80%8b">12.
+                                            1.kajian dan ilmu dasar teori informasi dan komputasi serta implementasi dan aplikasinya dalam sistem komputer disebut​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#definisikan-sistem-basis-data-dan-berikan-contoh-sederhana-implementasi-sistem-basis-data">13.
+                                            Definisikan Sistem Basis Data dan berikan contoh sederhana implementasi sistem basis data ?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#carilah-informasi-dari-berbagai-sumber-yang-relevan-mengenai-perkembangan-sistem-informasi-yang-di-implementasikan-disetiap-generasi-komputer-tuliskan-dalam-bentuk-laporan%e2%80%8b">14.
+                                            carilah informasi dari berbagai sumber yang relevan mengenai perkembangan sistem informasi yang di implementasikan disetiap generasi komputer.tuliskan dalam bentuk laporan​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#implementasi-sistem-informasi-geografis-sig-di-negara-thailand-khususnya-dalam-bidang-pertanian">15.
+                                            implementasi sistem informasi geografis (SIG) di negara thailand khususnya dalam bidang pertanian</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#implementasi-proyek-dalam-proposal-berisi">16.
+                                            Implementasi proyek dalam proposal berisi</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#mengapa-dalam-siklus-pengembangan-sia-untuk-merancang-sebuah-sistem-informasi-akuntansi-memerlukan-tahapan-implementasi">17.
+                                            mengapa dalam siklus pengembangan SIA untuk merancang sebuah sistem Informasi akuntansi memerlukan tahapan implementasi</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-informasi-informasi-penting-dalam-proposal">18.
+                                            Tuliskan informasi-informasi penting dalam proposal</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-manfaat-dari-implementasi-sistem-informasi-manajemen-dalam-organisasi">19.
+                                            Tuliskan manfaat dari implementasi sistem informasi manajemen dalam organisasi</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-apa-yang-dimaksud-dengan-informasi-dalam-proposal2-terdiri-dari-apakah-informasi-dalam-proposal-tersebut3-apa-fungsi-informasi-dalam-proposal4-bagaimanakah-materi-informasi-dalam-proposal">20.
+                                            1. Apa yang dimaksud dengan informasi dalam proposal?
+2. Terdiri dari apakah informasi dalam proposal tersebut?
+3. Apa fungsi informasi dalam proposal?
+4. Bagaimanakah materi informasi dalam proposal itu berperan dalam kehidupan
+sehari-hari dan karir masa depan peserta didik?
+5. Apa yang dimaksud dengan unsur-unsur proposal?
+6. Terdiri dari apakah unsur-unsur proposal tersebut?
+7. Apa fungsi unsur-unsur proposal?
+Mohon dijawab yang benar ya . . .</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pertanyaan-mengenai-pengaruh-implementasi-sistem-informasi-web-dan-strategi-promosi-terhadap-peningkatan-jumlah-anggota">21.
+                                            pertanyaan mengenai pengaruh implementasi sistem informasi web dan strategi promosi terhadap peningkatan jumlah anggota</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#26pilihan-gandapengertian-teknologi-informasi-adalah-%e2%80%a6-a-studi-perancangan-implementasi-pengembangan-dukungan-atau-manajemen-sistem-informasi-berbasis-komputer-secara-massal-b-studi-peran">22.
+                                            26Pilihan Gandapengertian teknologi informasi adalah … a. studi perancangan, implementasi, pengembangan, dukungan atau manajemen sistem informasi berbasis komputer secara massal b. studi perancangan, implementasi, pengembangan, dukungan atau manajemen sistem informasi berbasis komputer terutama pada aplikasi hardware dan softwarec. studi perancangan, implementasi, pengembangan, dukungan atau manajemen sistem informasi berbasis komputer terutama pada aplikasi tertentu saja d. studi perancangan, implementasi, pengembangan, dukungan atau manajemen sistem informasi berbasis komputer pada perangkat hardware saja e. b dan c benarTOLONG DIBANTU TMN² PLEASE JWB NY YG TPT NY ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#implementasi-proyek-dalam-proposal-berisipembatas-%e2%80%8b">23.
+                                            implementasi proyek dalam proposal berisipembatas ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-informasi-informasi-penting-dalam-proposal-tersebut">24.
+                                            Sebutkan informasi -informasi penting dalam proposal tersebut! *</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-perusahaan-harus-bertanggung-jawab-jika-terjadi-pemberhentian-pekerja-akibat-implementasi-sistem-informasi-jelaskan%e2%80%8b">25.
+                                            apakah perusahaan harus bertanggung jawab jika terjadi pemberhentian pekerja akibat implementasi sistem informasi? jelaskan​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-implementasi-sistem-informasi-pada-suatu-perusahaan-ataupun-organisasi%e2%80%8b">26.
+                                            bagaimana implementasi sistem informasi pada suatu perusahaan ataupun organisasi?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#implementasi-proyek-dalam-proposal-berisi%e2%80%a6">27.
+                                            Implementasi proyek dalam proposal berisi…. *</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-dimaksud-implementasi-sistem-informasi-pada-kantor-pemerintahan">28.
+                                            Apa yang dimaksud implementasi sistem informasi pada kantor pemerintahan?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#implementasi-proyek-dalam-proposal-berisi-%e2%80%8b">29.
+                                            implementasi proyek dalam proposal berisi ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-contoh-media-informasi-sederhana-tentang-bagaimana-mengimplementasikan-cara-hidup-sehat">30.
+                                            Tuliskan contoh media informasi sederhana tentang bagaimana mengimplementasikan cara hidup sehat !</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-i-contohproposalcarilah-dan-tulislahkegiatan2-tulislah-informasi-informasi-yang-terdapatdalam-proposal-icegiatan-tersebut%e2%80%8b">31.
+                                            1.I contohProposalcarilah dan tulislahkegiatan2.Tulislah informasi . - informasi yang terdapatdalam proposal icegiatan tersebut​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-dan-berikan-contoh-implementasi-sistem-manajmen-file">32.
+                                            Jelaskan dan berikan contoh implementasi sistem manajmen file!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#seperti-apa-informasi-dalam-proposal">33.
+                                            Seperti apa informasi dalam proposal</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#implementasi-proyek-dalam-proposal-berisi%e2%80%8b">34.
+                                            implementasi proyek dalam proposal berisi​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#solusi-apa-yang-anda-berikan-agar-perusahaan-dapat-mengelola-perubahan-organisasiterkait-adanya-implementasi-sistem-informasi-yang-baru">35.
+                                            Solusi apa yang Anda berikan agar perusahaan dapat mengelola perubahan organisasi
+terkait adanya implementasi Sistem Informasi yang baru?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebut-dan-jelaskan-implementasi-sistem-informasi-dalam-mekanisme-akuntansi">36.
+                                             sebut dan jelaskan implementasi sistem informasi dalam mekanisme akuntansi?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#implementasi-proyek-dalam-proposal-berisi%e2%80%8b">37.
+                                            Implementasi proyek dalam proposal berisi​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#implementasi-proyek-dalam-proposal-berisi%e2%80%a6">38.
+                                            Implementasi proyek dalam proposal berisi….</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-dengan-contoh-mengenai-sistem-nilai-pancasila-dan-implementasi-pancasila">39.
+                                            jelaskan dengan contoh mengenai sistem nilai pancasila dan implementasi pancasila</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#implementasi-proyek-dalam-proposal-berisi%e2%80%a6">40.
+                                            Implementasi proyek dalam proposal berisi…</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="tiga-contoh-kasus-tentang-pentingnya-implementasi-basis-data-dalam-sistem-informasi">
+                            1. tiga contoh kasus tentang pentingnya implementasi basis data dalam sistem informasi</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>3 Contoh kasus tentang pentingnya implementasi basis data dalam sistem informasi adalah dapat kita lihat dari berbagai implementasi yang telah dilakukan diberbagai tempat seperti halnya untuk bisnis dan layanan kepemerintahan.</p><p><strong>Penjelasan:</strong></p><p>Contoh kasus tentang pentingnya implementasi yang pertama adalah</p><p>1. di Bank, tanpa adanya basis data akan sulit sekali untuk mengelola data nasabah, akunting, semua transaksi perbankan yang begitu banyak.</p><p>2. Kemudian kedua di Pabrik, dengan adanya basis data aktivitas Pengelolaan data produksi, persediaan barang, pemesanan, agen dapat dengan mudah diatur dan dikelola sehingga pekerjaan dapat menjadi lebih efektif</p><p>3. Kemudian contoh kasus yang terakhir adalah di Bandara, dengan adanya basis data pengelolaan data reservasi, penjadwalan pesawat dapat dengan mudah diatur demi keselamatan transportasi udara tersebut.</p><p></p><p><strong>Pelajari Lebih Lanjut
+</strong></p><p>Demikian pembahasan tentang pelajaran Teknologi Informasi dan Komunikasi tentang penggunaan basis data yang diimplementasikan di berbagai kebutuhan sehari hari. Untuk mempelajari lebih lanjut mengenai materi tersebut kamu dapat membaca secara lengkap pada beberapa link brainly berikut ini :  
+</p><p>
+</p><p>1. kapan basis data diperlukan https://brainly.co.id/tugas/18487250
+</p><p>2. Objek basis data yang digunakan untuk melakukan transaksi basis data adalah https://brainly.co.id/tugas/8601521
+</p><p>3. perbedaan sistem basis data, basis data dan dbms adalah? dan berikan referensi nya https://brainly.co.id/tugas/9853122
+</p><p>
+</p><p>-----------------------------
+</p><p>
+</p><p><strong>Detail jawaban  
+</strong></p><p>Kelas: 11
+</p><p>Mapel: Teknologi Informasi dan Komunikasi
+</p><p>Bab: Bab 10 - Mengelola Basis Data
+</p><p>Kode: 11.11.10
+</p><p>
+</p><p><strong>Kata Kunci:  
+</strong></p><p>basis data, data, implementasi, penerapan</p><br />
+                                            <h2 class="ez-toc-section" id="proposal-dalam-bidang-sistem-informasi">
+                            2. proposal dalam bidang sistem informasi</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Manajemen</p><p></p><p></p><p></p><p></p><p></p><p>maaf kalau salah</p><br />
+                                            <h2 class="ez-toc-section" id="apa-bentuk-implementasi-sistem-informasi">
+                            3. apa bentuk implementasi sistem informasi?</h2><br />
+                        <p><strong>Apa bentuk implementasi sistem informasi adalah
+</strong></p><p>sistem informasi dimanfaatkan sebagai sumber belajar dalam pendidikan
+</p><p>sistem informasi dimanfaatkan untukk memasarkan suatu produk dalam pemasaran
+</p><p>sistem informasi dimanfaatkan sebagai referensi dalam penelitian
+</p>pembahasan
+<p>Sistem Informasi  pada umumnya yaitu Operasi memproses data yang berasal dari dan yang digunakan dalam kegiatan usaha. Peranan sistem informasi untuk operasi bisnis adalah untuk memproses transaksi bisnis, mengontrol proses industrial, dan mendukung komunikasi serta produktivitas kantor secara efisien.
+</p><p>sistem informasi terus berkembang dari tahun ketahun dimana sistem informasi dimanfaatkan atau diimplementasi kan pada segala aktifitas manusia sehari hari misalnya pada aktivitas bisnis aktivitas komunikasi aktivitas perdagangan aktivitas pendidikan dan lain lain. manfaat lain dari sistem informasi ialah Memberikan suatu informasi untuk pengambilan suatu keputusan, Memberikan suatu informasi yang dipergunakan didalam suatu perencanaan, pengendalian, pengevaluasian dan juga perbaikan berkelanjutan. Memberikan suatu informasi yang dipergunakan di dalam suatu perhitungan harga pokok produk, jasa dan tujuan lainnya yang diinginkan oleh manajemen. sistem infomasi harus dimanfaatkan sebagaiman mestinya dan tidak dimanfaatkan kehal negatif agar infomasi yang kita dapat dapat berguna bagi setiap orang yang membutuhkan dan menyebarkan informasi
+</p><p>
+</p>pelajari lebih lanjut
+<p>materi tentang teknologi informasi https://brainly.co.id/tugas/11613447
+</p><p>
+</p><p><strong>Detil jawaban
+</strong></p><p><strong>Kelas: 7
+</strong></p><p><strong>
+</strong></p><p><strong>Mapel: TIK
+</strong></p><p><strong>
+</strong></p><p><strong>Bab: Sejarah Perkembangan Teknologi Informasi dan Komunikasi
+</strong></p><p><strong>
+</strong></p><p><strong>Kode: 7.11.2
+</strong></p><p><strong>
+</strong></p><p><strong>Kata kunci: aktivitas, sistem , informasi
+</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="berikan-contoh-implementasi-sistem-pertahanan-negara">
+                            4. Berikan contoh implementasi sistem pertahanan negara</h2><br />
+                        <br /><br />Pertahanan militer untuk menghadapi ancaman militer, danPertahanan nonmiliter/nirmiliter untuk menghadapi ancaman nonmiliter/nirmiliter.<br />
+                                            <h2 class="ez-toc-section" id="deskripsikan-contoh-informasi-penting-dalam-proposal">
+                            5. Deskripsikan contoh informasi penting dalam proposal!</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Secara berkelompok, cermatilah kembali contoh proposal di atas.
+</p><p>2. Kemudian, lelaskanlah informasi informasi yang kamu anggap penting
+</p><p>pada setiap bagiannya itu.
+</p><p>3.Berdasarkan informasi-informasi itu, rumuskan pula maksud/tujuan
+</p><p>dari adanya bagian-bagiannya itu.
+</p><p>Informasi Penting
+</p><p>Maksud/Tujuan
+</p><p>Bagain-Bagian
+</p><p>Proposal
+</p><p>A. Latar belakang
+</p><p>B. Perumusan masalah
+</p><p>C. Tujuan
+</p><p>D Kontribusi penelitian
+</p><p>E. Defnisi operasional
+</p><p>F. Tinjauan pustaka
+</p><p>G. metode penelitian
+</p><p>H. jadwal pelaksanaan
+</p><p>I. Rencana anggaran
+</p><p>J. daftar pustaka​
+</p><p><strong>Penjelasan:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-dan-jelaskan-implementasi-sistem-informasi-dalam-mekanisme-akuntansi">
+                            6. sebutkan dan jelaskan implementasi sistem informasi dalam mekanisme akuntansi?</h2><br />
+                        Implementasi sistem informasi merupakan mempresentasikan komponen-komponen input menjadi output dalam suatu program.<br />Dalam akutansi, sistem informasi itu berupa data-data transaksi yang diolah dalam persamaan akutansi menjadi laporan keuangan yang digunakan manajemen atau investor untuk pengambilan keputusan.<br />
+                                            <h2 class="ez-toc-section" id="bagaimana-implementasi-sistem-informasi-dan-manajemen-pertanahan-nasional-simtanas-dalam-mencegah-kepemilikan-sertifikat-ganda">
+                            7. Bagaimana implementasi sistem informasi dan Manajemen Pertanahan Nasional (SIMTANAS) dalam mencegah kepemilikan sertifikat ganda ?</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>Berikut adalah beberapa cara implementasi SIMTANAS dapat membantu dalam mencegah masalah kepemilikan sertifikat ganda:</p><p></p><p>Pemantauan dan integrasi data: SIMTANAS mengintegrasikan data pertanahan dari berbagai sumber seperti Badan Pertanahan Nasional, Badan Pertanahan Provinsi, dan Badan Pertanahan Kabupaten/Kota. Dengan adanya integrasi data yang baik, SIMTANAS dapat melakukan pemantauan dan validasi data secara terpusat. Hal ini meminimalkan kemungkinan duplikasi sertifikat atau tumpang tindih dalam kepemilikan lahan.</p><p></p><p>Verifikasi data pemilik tanah: SIMTANAS dapat menyediakan mekanisme untuk memverifikasi data pemilik tanah. Melalui SIMTANAS, dapat dilakukan pencocokan data identitas pemilik tanah dengan data kependudukan atau data identitas lainnya. Hal ini membantu dalam menghindari adanya kepemilikan sertifikat ganda oleh orang yang sama.</p><p></p><p>Pemberian nomor unik: SIMTANAS dapat memberikan nomor unik untuk setiap sertifikat tanah yang dikeluarkan. Nomor unik ini membantu dalam mengidentifikasi secara unik setiap sertifikat dan mencegah duplikasi atau penerbitan sertifikat ganda dengan nomor yang sama.</p><p></p><p>Audit dan pemantauan: SIMTANAS dapat digunakan untuk melakukan audit dan pemantauan terhadap proses penerbitan sertifikat tanah. Dengan adanya sistem yang terintegrasi dan transparan, dapat dilakukan pemantauan terhadap proses pengajuan, penerbitan, dan perubahan status sertifikat. Ini membantu dalam mendeteksi potensi kepemilikan sertifikat ganda atau aktivitas yang mencurigakan.</p><p></p><p>Kolaborasi antarinstansi: SIMTANAS memungkinkan kolaborasi dan pertukaran informasi antara berbagai lembaga dan instansi terkait seperti Badan Pertanahan Nasional, Badan Pertanahan Provinsi, dan Badan Pertanahan Kabupaten/Kota. Kolaborasi ini membantu dalam menyatukan dan memverifikasi data pertanahan yang berbeda, sehingga meminimalkan risiko kepemilikan sertifikat ganda.</p><p></p><p>Implementasi SIMTANAS dalam mencegah kepemilikan sertifikat ganda membutuhkan koordinasi yang baik antara instansi terkait, pembaruan data secara berkala, dan penegakan hukum yang tegas terhadap pelanggaran yang terdeteksi. Selain itu, edukasi kepada masyarakat tentang pentingnya melaporkan perubahan kepemilikan atau transaksi tanah secara tepat waktu juga dapat membantu mencegah kepemilikan sertifikat ganda</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-dengan-contoh-sistem-nilai-dalam-pancasila-dan-implementasi-pancasila">
+                            8. jelaskan dengan contoh sistem nilai dalam pancasila dan implementasi pancasila</h2><br />
+                        Nilai pancasila itu sudah ditekankan sejak berdirinya pancasila itu sendiri.Puncaknya pd saat orba,bahwa penerapan P4 itu penting.Karena pancasila itu sakral dan sakti<br />Implementasinya:<br />1.Menghayati dan mengamalkan nilai nilai pancasila untuk berkehidupan berbangsa dan bernegara<br />2.Menghafalkan 36 butir pancasila,agar memantapkan perilaku kita sesuai dengan pancasila.<br />3.Tidak melakukan pengkhianatan terhadap pancasila,karena pancasila merupakan landasan moral bagi bangsa indonesia.<br />
+                                            <h2 class="ez-toc-section" id="tuliskan-manfaat-dari-implementasi-sistem-informasi-manajemen-dalam-organisasi">
+                            9. tuliskan manfaat dari implementasi sistem informasi manajemen dalam organisasi</h2><br />
+                        1. Meningkatkan aksesibilitas data yang tersaji secara tepat waktu dan akurat bagi para pemakai, tanpa  mengharuskan adanya prantara sistem informasi.<br /><br />2. Menjamin tersedianya kualitas dan keterampilan dalam memanfaatkan sistem informasi secara kritis.<br /><br />3. Mengembangkan proses perencanaan yang efektif.<br /><br />4. Mengidentifikasi kebutuhan-kebutuhan akan keterampilan pendukung sistem informasi.<br /><br />5. Menetapkan investasi yang akan diarahkan pada sistem informasi.<br /><br />6. Mengantisipasi dan memahami konsekuensi-konsekuensi ekonomis dari sistem informasi dan teknologi baru.<br /><br />7. Memperbaiki produktivitas dalam aplikasi pengembangan dan pemeliharaan sistem.<br /><br />8. Organisasi menggunakan sistem informasi untuk mengolah transaksi-transaksi, mengurangi biaya dan menghasilkan pendapatan sebagai salah satu produk atau pelayanan mereka.<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="skenario-implementasi-dan-penerapan-public-key-infrastructure-dalam-suatu-sistem-informasi">
+                            10. Skenario implementasi dan penerapan public key infrastructure dalam suatu sistem informasi.</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Tanggal</p><p>2012</p><p>Pengarang</p><p>Arifin, Syamsul</p><p>Neyman, Shelvie Nidya</p><p>Metadata</p><p>Tampilkan catatan item lengkap</p><p>Abstrak</p><p>Kriptografi adalah proses penyandian data ke dalam bentuk yang hanya dapat dibaca oleh suatu sistem. Sistem memiliki kunci untuk membaca data yang dienkripsi. Berdasarkan metodenya, algoritma kriptografi dapat dibedakan menjadi kriptografi kunci asimetris, kriptografi kunci simetris, dan kriptografi kunci publik. Penelitian ini berupaya mengembangkan Public Key Infrastructure (PKI) dengan layanan berintegritas, yang diimplementasikan dalam pengiriman hasil pemungutan suara pada proses pemilu secara mobile. Manfaat dari penelitian ini adalah mempermudah dan meningkatkan efisiensi proses penghitungan serta meningkatkan keamanan pengiriman data menggunakan komunikasi bergerak. Metode yang digunakan adalah Life Cycle Security System dimana urutan langkah mengikuti siklus hidup sistem keamanan dengan menghilangkan langkah operasional dan pemeliharaan. Algoritma yang digunakan dalam penelitian ini adalah RSA dan MD5 Hash Function. Algoritma RSA digunakan untuk memfasilitasi distribusi kunci yang digunakan dalam enkripsi pesan, dan hash MD5 berfungsi sebagai fungsi autentikasi. Hasil dari penelitian ini adalah sistem keamanan transmisi suara pilkada melalui mobile yang mengatasi ancaman sniffing atau snooping, camouflage, dan alterasi dengan menyediakan layanan keamanan otentikasi, integritas, dan ketersediaan.</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-dan-jelaskan-implementasi-sistem-informasi-dalam-mekanisme-akuntansi">
+                            11. sebutkan dan jelaskan implementasi sistem informasi dalam mekanisme akuntansi?</h2><br />
+                        Implementasi sistem informasi merupakan mempresentasikan komponen-komponen input menjadi output dalam suatu program.<br />Dalam akutansi, sistem informasi itu berupa data-data transaksi yang diolah dalam persamaan akutansi menjadi laporan keuangan yang digunakan manajemen atau investor untuk pengambilan keputusan.<br />
+                                            <h2 class="ez-toc-section" id="1-kajian-dan-ilmu-dasar-teori-informasi-dan-komputasi-serta-implementasi-dan-aplikasinya-dalam-sistem-komputer-disebut%e2%80%8b">
+                            12. 1.kajian dan ilmu dasar teori informasi dan komputasi serta implementasi dan aplikasinya dalam sistem komputer disebut​</h2><br />
+                        <p>Komputasi (bahasa Inggris: computing) adalah aktivitas penggunaan dan pengembangan teknologi komputer, perangkat keras, dan perangkat lunak komputer. ... Ilmu komputer adalah kajian dan ilmu dasar teori informasi dan komputasi serta implementasi dan aplikasinya dalam sistem komputer.</p><p></p><p>Maaf klau salah :)</p><br />
+                                            <h2 class="ez-toc-section" id="definisikan-sistem-basis-data-dan-berikan-contoh-sederhana-implementasi-sistem-basis-data">
+                            13. Definisikan Sistem Basis Data dan berikan contoh sederhana implementasi sistem basis data ?</h2><br />
+                        <p> </p><p>Basis data adalah kumpulan file-file yang mempunyai kaitan antara satu file dengan file lain sehingga membentuk suatu bangunan data untuk menginformasikan suatu perusahaan atau instansi dalam batasan tertentu</p><p>Sebuah basis data ( Database ) dapat memiliki beberapa basis data. Setiap basis data dapat berisi atau memiliki sejumlah objek basis data seperi file atau tabel.Database</p><p></p><p>contoh:</p><p>OPERASI DASAR KOMPUTER dan PERANGKAT LUNAK DALAM SISTEM INFORMASI</p><p></p><p></p><p> </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="carilah-informasi-dari-berbagai-sumber-yang-relevan-mengenai-perkembangan-sistem-informasi-yang-di-implementasikan-disetiap-generasi-komputer-tuliskan-dalam-bentuk-laporan%e2%80%8b">
+                            14. carilah informasi dari berbagai sumber yang relevan mengenai perkembangan sistem informasi yang di implementasikan disetiap generasi komputer.tuliskan dalam bentuk laporan​</h2><br />
+                        <p><strong>Laporan:</strong><strong> </strong><strong>Perkembangan Sistem Informasi pada Setiap Generasi Komputer</strong></p><p></p><p><strong>Pendahuluan</strong><strong>:</strong></p><p><strong>Seiring dengan perkembangan teknologi komputer yang semakin cepat, sistem informasi juga mengalami perkembangan yang signifikan. Setiap generasi komputer memiliki karakteristik yang berbeda dalam hal kemampuan pemrosesan data dan penyimpanan informasi, yang mempengaruhi perkembangan sistem informasi</strong><strong>.</strong></p><p></p><p><strong>Isi:</strong></p><p> Berikut adalah penjelasan singkat tentang perkembangan sistem informasi pada setiap generasi komputer:</p><p></p><p>Generasi Pertama (1940-an hingga awal 1950-an)</p><p>Pada generasi ini, sistem informasi masih sangat sederhana. Data disimpan dalam bentuk punch card atau tape. Pengolahan data dilakukan dengan menggunakan mesin pemilah (sorter) dan mesin hitung (tabulator). Sistem informasi pada saat itu hanya berfungsi untuk mengolah data yang bersifat administratif, seperti gaji pegawai, inventarisasi barang, dan sebagainya.</p><p></p><p>Generasi Kedua (akhir 1950-an hingga awal 1960-an)</p><p>Generasi kedua mengalami peningkatan pada kecepatan dan kapasitas penyimpanan data. Sistem informasi pada masa ini menggunakan magnetic tape dan magnetic disk sebagai media penyimpanan data. Pengolahan data menggunakan komputer yang lebih canggih, seperti IBM 1401. Sistem informasi pada masa ini mulai digunakan untuk keperluan bisnis dan akuntansi.</p><p></p><p>Generasi Ketiga (awal 1960-an hingga awal 1970-an)</p><p>Pada generasi ketiga, kapasitas penyimpanan data semakin meningkat dan pengolahan data dilakukan dengan menggunakan bahasa pemrograman yang lebih canggih. Sistem informasi pada masa ini digunakan untuk keperluan yang lebih kompleks, seperti peramalan dan pengendalian persediaan.</p><p></p><p>Generasi Keempat (awal 1970-an hingga akhir 1980-an)</p><p>Generasi keempat ditandai dengan munculnya komputer personal (PC) dan software yang lebih canggih. Sistem informasi pada masa ini mulai digunakan untuk keperluan manajemen, seperti sistem informasi manajemen (SIM) dan sistem pendukung keputusan (SPK).</p><p></p><p>Generasi Kelima (akhir 1980-an hingga saat ini)</p><p>Generasi kelima mengalami peningkatan pada koneksi antar komputer dan penggunaan internet. Sistem informasi pada masa ini terintegrasi dengan internet dan seringkali digunakan untuk keperluan e-commerce dan bisnis online.</p><p></p><p><strong>Penutup:</strong></p><p>Dari penjelasan di atas, dapat dilihat bahwa sistem informasi pada setiap generasi komputer mengalami peningkatan yang signifikan, baik dari segi kapasitas penyimpanan data, kecepatan pengolahan data, maupun fungsinya dalam mendukung keperluan bisnis dan manajemen.</p><p></p><p></p><p><strong>Semoga </strong><strong>Membantu</strong></p><p></p><p></p><strong>M</strong><strong>ata </strong><strong>Pelajaran:</strong><strong> </strong><strong>Informatika</strong><strong>Soal:</strong><strong> </strong><strong>https://brainly.co.id/tugas/53435851</strong><strong>Jenjang:</strong><strong> </strong><strong>SMA</strong><br />
+                                            <h2 class="ez-toc-section" id="implementasi-sistem-informasi-geografis-sig-di-negara-thailand-khususnya-dalam-bidang-pertanian">
+                            15. implementasi sistem informasi geografis (SIG) di negara thailand khususnya dalam bidang pertanian</h2><br />
+                        sistem informasi itukan sebuah kesatuan daripada informasi-informasi yang saling berkatan dan membentuk satu kesatuan. Kalau dilogika, SIG difungsikan untuk membantu petani dalam memilih jenis tanaman yang ditanam, kebutuhan kadar air, cuaca/iklim, mengatur suhu, dan sebagainya.<br /><br />
+                                            <h2 class="ez-toc-section" id="implementasi-proyek-dalam-proposal-berisi">
+                            16. Implementasi proyek dalam proposal berisi</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>Implementasi proyek dalam proposal berisi  Penjadwalan kegiatan.</p><p></p><p><strong>s</strong><strong>emoga</strong><strong> membantu</strong><strong>^</strong><strong>^</strong></p><br />
+                                            <h2 class="ez-toc-section" id="mengapa-dalam-siklus-pengembangan-sia-untuk-merancang-sebuah-sistem-informasi-akuntansi-memerlukan-tahapan-implementasi">
+                            17. mengapa dalam siklus pengembangan SIA untuk merancang sebuah sistem Informasi akuntansi memerlukan tahapan implementasi</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Siklus Pengembangan Sistem</p><p></p><p>Untuk dapat merancang sebuah Sistem Informasi Akuntansi, kita harus melalui tahapan-tahapan pengembangan sistem. Tahapan tersebut adalah Planning (Perencanaan), Analysis (Analisis), Design (Perancangan), Implementation (Implementasi), dan Post Implementation (Pascaimplementasi).</p><p></p><p>1.1 Perencanaan (Planning)</p><p></p><p>Dalam tahap ini, pengembang sistem melakukan perencanaan mengenai SIA yang akan dibuat. Seberapa besar perubahan yang harus dibuat dari sistem awal, infrastruktur apa saja yang dibutuhkan, berapa besar cost pengembangan dan benefit yang nantinya akan dihasilkan. Hasil akhir dari tahap perencanaan ini adalah proposal proyek atau dokumen perencanaan proyek (dapat anda buka di tautan ini).</p><p></p><p>1.2 Analysis (Analsis)</p><p></p><p>Dalam tahap ini, pengembang sistem melakukan analsis mengenai data-data apa saja yang harus dikelola, informasi apa saja yang harus dihasilkan, apa saja Entitas dan bagaimana Relationshipnya. Hasil dari tahap ini adalah ER-Diagram. Selain itu, analisis mengenai pengendalian internal (internal control) juga perlu dilakukan. SIA sangat terkait dengan SPI (Struktur Pengendalian Internal), karena informasi yang dihasilkan dari SIA harus memenuhi karakteristik kualitatif informasi (dapat cek di tautan ini). Untuk dapat memenuhi karakteristik kualitatif informasi tersebut, SIA harus digunakan juga sebagai bagian dari SPI. Adapun komponen dari SPI adalah Lingkungan Pengendalian, Penilaian Risiko, Aktivitas Pengendalian, Informasi dan Komunikasi, Pengawasan (Monitoring). Dalam tahap Aktivitas Pengendalian, terdapat Pengendalian Umum (General Control) dan Pengendalian Aplikasi (Application Control). Pembahasan mengenai kaitan SPI dan SIA dapat anda baca di tautan ini dan ini).</p><p></p><p>1.3 Perancangan (Design)</p><p></p><p>Dalam tahap ini, pengembang sistem merancang SIA dalam DBMS (Database Management System). ER-Diagram dan Pengendalian atas risiko yang mungkin muncul, diterapkan dalam rancangan aplikasi menggunakan DBMS, sehingga akan menghasilkan aplikasi SIA. Bila lebih mutakhir, aplikasi SIA dapat dibuat terintegrasi antar siklus (akan dibahas dalam pembahasan selanjutnya, siklus transaksi).</p><p></p><p>1.4 Implementasi (Implementation)</p><p></p><p>Dalam tahap ini, pengembang sistem mengimplementasikan SIA dalam organisasi. Permasalahan yang biasa terhadi adalah penolakan karyawan atas sistem baru (user resistance). Ada beberapa metoda yang dapat digunakan untuk mengatasi permasalahan ini seperti phased in, parallel, direct, big-bang, dan lain sebagainya.</p><p></p><p>1.5 Pascaimpelementasi (Post Implementation)</p><p></p><p>Dalam tahap ini, sistem yang sudah diterapkan diperiksa secara berkala. Bugs-bugs yang muncul dibenahi, pemutakhiran field dalam table dilakukan jika terdapat transaksi atau data baru, atau pengelolaan konsistensi data.</p><p></p><p>Untuk lebih lengkapnya klik link di bawah:</p><p>https://rogonyowosukmo.wordpress.com/2010/03/18/pengembangan-sistem-informasi-akuntansi/</p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="tuliskan-informasi-informasi-penting-dalam-proposal">
+                            18. Tuliskan informasi-informasi penting dalam proposal</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>bersifat resmi</p><p><strong>Penjelasan:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="tuliskan-manfaat-dari-implementasi-sistem-informasi-manajemen-dalam-organisasi">
+                            19. Tuliskan manfaat dari implementasi sistem informasi manajemen dalam organisasi</h2><br />
+                        1. Meningkatkan aksesibilitas data yang tersaji secara tepat waktu dan akurat bagi para pemakai, tanpa  mengharuskan adanya prantara sistem informasi.2. Menjamin tersedianya kualitas dan keterampilan dalam memanfaatkan sistem informasi secara kritis.3. Mengembangkan proses perencanaan yang efektif.4. Mengidentifikasi kebutuhan-kebutuhan akan keterampilan pendukung sistem informasi.5. Menetapkan investasi yang akan diarahkan pada sistem informasi.<br />
+                                            <h2 class="ez-toc-section" id="1-apa-yang-dimaksud-dengan-informasi-dalam-proposal2-terdiri-dari-apakah-informasi-dalam-proposal-tersebut3-apa-fungsi-informasi-dalam-proposal4-bagaimanakah-materi-informasi-dalam-proposal">
+                            20. 1. Apa yang dimaksud dengan informasi dalam proposal?
+2. Terdiri dari apakah informasi dalam proposal tersebut?
+3. Apa fungsi informasi dalam proposal?
+4. Bagaimanakah materi informasi dalam proposal itu berperan dalam kehidupan
+sehari-hari dan karir masa depan peserta didik?
+5. Apa yang dimaksud dengan unsur-unsur proposal?
+6. Terdiri dari apakah unsur-unsur proposal tersebut?
+7. Apa fungsi unsur-unsur proposal?
+Mohon dijawab yang benar ya . . .</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Informasi dalam proposal adalah suatu rencana yang dituangkan dalam bentuk rancangan kegiatan dalam bentuk tulisan dan dijelaskan secara sistematis dan terperinci.</p><p>2. Proposal ini isinya sangat lengkap terdiri dari tiga bagian diantaranya yaitu bagian pendahuluan, isi, dan penutup, berikut penjelasannya: Bagian pendahuluan terdiri dari sampul dan halaman judul, kata pengantar, ikhtisar, daftar isi, dan pengesahan atau permohonan</p><p>3. untuk menjelaskan tentang rencana dan tujuan suatu kegiatan secara jelas dan detail.</p><p>4. Peran unsur-unsur proposal dalam kehidupan sehari-hari sebagai informasi mengenai suatu perencanaan kegiatan yang akan dilakukan disuatu tempat. Dan peran unsur-unsur proposal untuk karir masa depan sebagai bahan evaluasi atau pertimbangan suatu kegiatan yang akan dilakukan secara berkelanjutan.</p><p>5. unsur-unsur proposal disebut juga bagian-bagian atau bab-bab yang ada atau dimuat dalam sebuah proposal. Unsur–unsur yang dimuat dalam suatu propsal akan menentukan bentuk dari sebuah proposal.</p><p>6. Unsur-unsur proposal terdiri dari 8 bagian yaitu pendahuluan/latar belakang,perumusan masalah,tujuan proposal,sasaran,teknik pelaksanaan,jadwal pelaksanaan,anggaran,penutup.</p><p>7. Fungsi unsur-unsur proposal adalah  </p><p>A.Untuk melakukan penelitian tentang masalah agama,politik,ekonomi, sosial dan budaya.  </p><p>B.Untuk mendirikan usaha kecil, menengah maupun besar.
+</p><p>
+C.Untuk mengajukan tender dari lembaga pemerintahan/swasta
+</p><p>
+D.Untuk mengajukan kredit pada bank</p><p></p><p></p><p></p><p><strong>Semoga membantu, jadikan jawaban terbaik ya :)</strong></p><p><strong></strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="pertanyaan-mengenai-pengaruh-implementasi-sistem-informasi-web-dan-strategi-promosi-terhadap-peningkatan-jumlah-anggota">
+                            21. pertanyaan mengenai pengaruh implementasi sistem informasi web dan strategi promosi terhadap peningkatan jumlah anggota</h2><br />
+                        memperkurang jumlah anggotanyaMEMPERKURANG jumlah anggotanya <br /><br /><br /><br /><br /><br /><br />
+                                            <h2 class="ez-toc-section" id="26pilihan-gandapengertian-teknologi-informasi-adalah-%e2%80%a6-a-studi-perancangan-implementasi-pengembangan-dukungan-atau-manajemen-sistem-informasi-berbasis-komputer-secara-massal-b-studi-peran">
+                            22. 26Pilihan Gandapengertian teknologi informasi adalah … a. studi perancangan, implementasi, pengembangan, dukungan atau manajemen sistem informasi berbasis komputer secara massal b. studi perancangan, implementasi, pengembangan, dukungan atau manajemen sistem informasi berbasis komputer terutama pada aplikasi hardware dan softwarec. studi perancangan, implementasi, pengembangan, dukungan atau manajemen sistem informasi berbasis komputer terutama pada aplikasi tertentu saja d. studi perancangan, implementasi, pengembangan, dukungan atau manajemen sistem informasi berbasis komputer pada perangkat hardware saja e. b dan c benarTOLONG DIBANTU TMN² PLEASE JWB NY YG TPT NY ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>C</p><p><strong>Penjelasan:</strong></p><p>Dah gitu aja yeeekan dah</p><br />
+                                            <h2 class="ez-toc-section" id="implementasi-proyek-dalam-proposal-berisipembatas-%e2%80%8b">
+                            23. implementasi proyek dalam proposal berisipembatas ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Penjadwalan adalah kegiatan alokasi sumber-sumber atau mesin-mesin yang ada untuk menjalankan sekumpulan tugas dalam jangka waktu tertentu.</p><p></p><p>Penjadwalan adalah dasar mengalokasikan sumber daya pabrik seperti mesin dan peralatan produksi, merencanakan sumber daya manusia, pembelian material dan merencanakan proses produksi</p><p></p><p>Proposal memiliki banyak macam seperti proposal bisnis, proposal proyek, proposal penelitian dan proposal kegiatan. Proposal proyek biasanya dipakai untuk keperluan di dunia kerja dimana isinya berhubungan dengan rencana kerja dan informasi teknis. Dalam suatu proyek, proposal berfungsi sebagai dasar melakukan tender dari instansi pemerintah maupun swasta.</p><p><strong></strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-informasi-informasi-penting-dalam-proposal-tersebut">
+                            24. Sebutkan informasi -informasi penting dalam proposal tersebut! *</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Tahap 1:</p><p>Menentukan tujuan atau serangkaian tujuan.</p><p>Perencanaan dimulai dengan keputusan-keputusan tentang keinginan atau kebutuhan perusahaan. Tanpa rumusan tujuan yang jelas, penggunaan sumber daya perusahaan tidak efektif.</p><p>Tahap 2:</p><p>Merumuskan keadaan saat ini.</p><p>Pemahaman akan kondisi perusahaan sekarang dan tujuan yang hendak dicapai atau sumber daya-sumber daya yang tersedia untuk pencapaian tujuan, adalah sangat penting. Karena tujuan dan rencana menyangkut waktu akan datang. Hanya setelah keadaan perusahaan saat ini dianalisa, rencana dapat dirumuskan untuk menggambarkan kegiatan lebih lanjut. Tahap kedua ini memerlukan informasi terutama keuangan dan data statistik.</p><p>Tahap 3:</p><p>Mengindentifikasikan segala kemudahan dan hambatan.</p><p>Segala kekuatan dan kelemahan serta kemudahan dan hambatan perlu di identifikasikan, untuk mengukur kemampuan organisasi dalam mencapai tujuan. Oleh karena itu, perlu diketahui faktor-faktor lingkungan dalam dan luar yang dapat membantu perusahaan mencapai tujuannya, atau yang mungkin menimbulkan masalah. Walaupun sulit dilakukan, antisipasi keadaan, masalah dan kesempatan serta ancaman yang mungkin terjadi di waktu mendatang, adalah bagian penting dari proses perencanaan.</p><p>Tahap 4:</p><p>Mengembangkan rencana atau serangkaian kegiatan untuk pencapaian tujuan.</p><p>Tahap akhir dalam proses perencanaan meliputi pengembangan berbagai pilihan kegiatan untuk pencapaian tujuan, penilaian pilihan kegiatan terbaik (paling memuaskan ) di antara pilihan </p><p></p><p></p><p></p><p>maaf kalau salah </p><p>jadikan jawaban yang benar</p><p>jangan lupa follow</p><p><strong>Jawaban:</strong></p><p>- Latar belakang</p><p>- Perumusan masalah</p><p>- Metode penelitian</p><p>- Jadwal Pelaksanaan</p><p>- Tujuan</p><p><strong>Penjelasan:</strong></p><strong>M</strong><strong>a</strong><strong>a</strong><strong>f</strong><strong> </strong><strong>k</strong><strong>a</strong><strong>l</strong><strong>a</strong><strong>u</strong><strong> </strong><strong>s</strong><strong>l</strong><strong>a</strong><strong>h</strong><strong>.</strong><strong>.</strong><strong>T</strong><strong>o</strong><strong>l</strong><strong>o</strong><strong>n</strong><strong>g</strong><strong>k</strong><strong>a</strong><strong>s</strong><strong>i</strong><strong>h</strong><strong> </strong><strong>♥️</strong><strong> </strong><strong>d</strong><strong>a</strong><strong>n</strong><strong> </strong><strong>⭐</strong><strong>n</strong><strong>y</strong><strong>a</strong><strong> </strong><strong>y</strong><strong>a</strong><strong>.</strong><strong>.</strong><strong>J</strong><strong>a</strong><strong>d</strong><strong>i</strong><strong>k</strong><strong>a</strong><strong>n</strong><strong> </strong><strong>J</strong><strong>a</strong><strong>w</strong><strong>a</strong><strong>b</strong><strong>a</strong><strong>n</strong><strong> </strong><strong>T</strong><strong>e</strong><strong>r</strong><strong>b</strong><strong>a</strong><strong>i</strong><strong>k</strong><strong>.</strong><strong>.</strong><strong>T</strong><strong>e</strong><strong>r</strong><strong>i</strong><strong>m</strong><strong>a</strong><strong>k</strong><strong>a</strong><strong>s</strong><strong>i</strong><strong>h</strong><strong>.</strong><strong>.</strong><br />
+                                            <h2 class="ez-toc-section" id="apakah-perusahaan-harus-bertanggung-jawab-jika-terjadi-pemberhentian-pekerja-akibat-implementasi-sistem-informasi-jelaskan%e2%80%8b">
+                            25. apakah perusahaan harus bertanggung jawab jika terjadi pemberhentian pekerja akibat implementasi sistem informasi? jelaskan​</h2><br />
+                        <p>Tidak, karena mengikti jaman yang semakin berkembang, jika tidak mengikuti lajunya jaman. Maka perusahaan itu sendiri akan bangkrut. Walaupun begitu jika kita mengikuti HAM, paling tidak kita harus memberi kompensasi untuk para pekerja yang diberhentikan.</p><p></p><p>semoga membantu</p><br />
+                                            <h2 class="ez-toc-section" id="bagaimana-implementasi-sistem-informasi-pada-suatu-perusahaan-ataupun-organisasi%e2%80%8b">
+                            26. bagaimana implementasi sistem informasi pada suatu perusahaan ataupun organisasi?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>kenalan dulu sama user</p><p>pastikan memiliki pengetahuan yg lebih dari user tentang produk yg akan diimplementasikan</p><p></p><p>ngobrol yg enak</p><br />
+                                            <h2 class="ez-toc-section" id="implementasi-proyek-dalam-proposal-berisi%e2%80%a6">
+                            27. Implementasi proyek dalam proposal berisi…. *</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>rencana atau program yang akan dilakukan</p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-dimaksud-implementasi-sistem-informasi-pada-kantor-pemerintahan">
+                            28. Apa yang dimaksud implementasi sistem informasi pada kantor pemerintahan?</h2><br />
+                        sebuah sistem manusia-mesin untuk memberi informasi untuk mendukunh manajemen dlam suatu organisasi<br /><br />semoga membantu :)<br />
+                                            <h2 class="ez-toc-section" id="implementasi-proyek-dalam-proposal-berisi-%e2%80%8b">
+                            29. implementasi proyek dalam proposal berisi ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Implementasi proyek dalam proposal berisi  Penjadwalan kegiatan
+</p><p>Pembahasan
+</p><p>Penjadwalan adalah kegiatan alokasi sumber-sumber atau mesin-mesin yang ada untuk menjalankan sekumpulan tugas dalam jangka waktu tertentu.
+</p><p>
+</p><p>Penjadwalan adalah dasar mengalokasikan sumber daya pabrik seperti mesin dan peralatan produksi, merencanakan sumber daya manusia, pembelian material dan merencanakan proses produksi
+</p><p>
+</p><p>Proposal memiliki banyak macam seperti proposal bisnis, proposal proyek, proposal penelitian dan proposal kegiatan. Proposal proyek biasanya dipakai untuk keperluan di dunia kerja dimana isinya berhubungan dengan rencana kerja dan informasi teknis. Dalam suatu proyek, proposal berfungsi sebagai dasar melakukan tender dari instansi pemerintah maupun swasta.
+</p><p>
+</p><p><strong>Penjelasan:</strong></p><p><strong>Semoga membantu :)</strong></p><br />
+                                            <h2 class="ez-toc-section" id="tuliskan-contoh-media-informasi-sederhana-tentang-bagaimana-mengimplementasikan-cara-hidup-sehat">
+                            30. Tuliskan contoh media informasi sederhana tentang bagaimana mengimplementasikan cara hidup sehat !</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Perbanyak makan sayur dan buah</p><p>2. Cukup istirahat</p><p>3. Hindari stres dan kelola stres</p><p>4. Rutin olahraga</p><p><strong>Penjelasan:</strong></p><p></p><p>Media informasi yang dipilih adalah beupa video media sosial. Bentuk ini dipilih karena mampu menjangkau banyak orang sekaligus dan menarik. Ilustrasinya dibuat menggunakan animasi yang ringan dengan desain kekinian serta bahasa gaul.</p><p>Penjelasan:</p><p>Pemilihan bahasa dan media informasi sangat penting. Kedua hal ini berkaitan erat dengan kualitas penyampaian informasi. Media yang tepat akan mendorong banyak orang tertarik menyaksikan informasi tersebut dan melaksanakannya.</p><p></p><p>Tidak hanya media video media sosial saja media yang dapat digunakan juga bisa seperti, </p><p>media cetak : majalah, koran, tabloid</p><p>media elektronik : televisi, radio, internet.</p><p></p><p>Semoga Bermanfaat Ya </p><br />
+                                            <h2 class="ez-toc-section" id="1-i-contohproposalcarilah-dan-tulislahkegiatan2-tulislah-informasi-informasi-yang-terdapatdalam-proposal-icegiatan-tersebut%e2%80%8b">
+                            31. 1.I contohProposalcarilah dan tulislahkegiatan2.Tulislah informasi . - informasi yang terdapatdalam proposal icegiatan tersebut​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>cari sorang jgn hndk k google hja mancari kanyamanan hidup</p><p><strong>Penjelasan:</strong></p><p>anda </p><p>coba pang balajar sorang jgn hndak k hp haja mancri jwbn</p><p></p><p>brainly nie kina ku blokir dari Indonesia</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-dan-berikan-contoh-implementasi-sistem-manajmen-file">
+                            32. Jelaskan dan berikan contoh implementasi sistem manajmen file!</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>sebuah metode dan stuktur  data yang digunakan  oleh sistem  operasi</p><p><strong>Penjelasan:</strong></p><p>1. penyimpanan  data di file baik penamaan file atau letak file</p><p>2.manajemen  file yang baik dapat memberikan  banyak manfaat  bagi para  </p><p>    pengguna file</p><br />
+                                            <h2 class="ez-toc-section" id="seperti-apa-informasi-dalam-proposal">
+                            33. Seperti apa informasi dalam proposal</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Pertama, kosakata dan istilah yang digunakan hendaknya memperhatikan pemanfaatan potensi kata canggih, kata dan ungkapan yang dipilih tepat makna, dan penulis sendiri perlu mengetahui pembentukan kata dan istilah. Kedua, pengembangan bahasa dalam tulisan berkadar ilmiah. Ketiga, aspek mekanik yang digunakan dalam tulisan berkadar ilmiah.</p><br />
+                                            <h2 class="ez-toc-section" id="implementasi-proyek-dalam-proposal-berisi%e2%80%8b">
+                            34. implementasi proyek dalam proposal berisi​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Implementasi proyek dalam proposal berisi  Penjadwalan kegiatan
+</p><p>Pembahasan
+</p><p>Penjadwalan adalah kegiatan alokasi sumber-sumber atau mesin-mesin yang ada untuk menjalankan sekumpulan tugas dalam jangka waktu tertentu.
+</p><p>
+</p><p>Penjadwalan adalah dasar mengalokasikan sumber daya pabrik seperti mesin dan peralatan produksi, merencanakan sumber daya manusia, pembelian material dan merencanakan proses produksi
+</p><p>
+</p><p>Proposal memiliki banyak macam seperti proposal bisnis, proposal proyek, proposal penelitian dan proposal kegiatan. Proposal proyek biasanya dipakai untuk keperluan di dunia kerja dimana isinya berhubungan dengan rencana kerja dan informasi teknis. Dalam suatu proyek, proposal berfungsi sebagai dasar melakukan tender dari instansi pemerintah maupun swasta.</p><p></p><p></p><strong>Jawaban:</strong>Implementasi proyek dalam proposal berisi  Penjadwalan kegiatan<p></p>Pembahasan<p></p><p>Penjadwalan adalah kegiatan alokasi sumber-sumber atau mesin-mesin yang ada untuk menjalankan sekumpulan tugas dalam jangka waktu tertentu.</p><p></p><p>Penjadwalan adalah dasar mengalokasikan sumber daya pabrik seperti mesin dan peralatan produksi, merencanakan sumber daya manusia, pembelian material dan merencanakan proses produksi</p><p></p><p>Proposal memiliki banyak macam seperti proposal bisnis, proposal proyek, proposal penelitian dan proposal kegiatan. Proposal proyek biasanya dipakai untuk keperluan direncana kerja dan informasi teknis. Dalam suatu proyek, proposal berfungsi sebagai dasar melakukan tender dari instansi pemerintah maupun swasta. dunia kerja dimana isinya berhubungan dengan</p><br />
+                                            <h2 class="ez-toc-section" id="solusi-apa-yang-anda-berikan-agar-perusahaan-dapat-mengelola-perubahan-organisasiterkait-adanya-implementasi-sistem-informasi-yang-baru">
+                            35. Solusi apa yang Anda berikan agar perusahaan dapat mengelola perubahan organisasi
+terkait adanya implementasi Sistem Informasi yang baru?</h2><br />
+                        Komunikasi terbuka: Pastikan bahwa semua anggota staf memahami manfaat dan tujuan dari implementasi sistem baru. Memberikan informasi terbuka dan transparan akan membantu mengurangi kecemasan dan membangun dukungan untuk perubahan.Latihan dan pendidikan: Pastikan bahwa staf memiliki keterampilan dan pengetahuan yang diperlukan untuk menggunakan sistem baru secara efektif. Latihan dan pendidikan formal dapat membantu staf beradaptasi dengan perubahan.Pelibatan staf: Terlibatkan staf sejak awal dalam perencanaan dan implementasi sistem baru akan membantu membangun dukungan dan mengurangi resistensi terhadap perubahan.Persepsi staf: Menilai dan memahami persepsi staf tentang perubahan akan membantu mengatasi masalah yang mungkin muncul dan membantu memastikan bahwa staf merasa diterima dan didukung.Monitoring dan evaluasi: Terus memantau dan mengevaluasi bagaimana sistem baru berfungsi setelah implementasi akan membantu memastikan bahwa perubahan berjalan sesuai rencana dan membantu mengatasi masalah yang mungkin timbul.Dukungan pimpinan: Dukungan dan partisipasi aktif dari pimpinan perusahaan akan membantu memastikan bahwa implementasi sistem baru berjalan dengan lancar dan membantu mengatasi masalah yang mungkin muncul.<br />
+                                            <h2 class="ez-toc-section" id="sebut-dan-jelaskan-implementasi-sistem-informasi-dalam-mekanisme-akuntansi">
+                            36.  sebut dan jelaskan implementasi sistem informasi dalam mekanisme akuntansi?</h2><br />
+                        memudahkan perusahaan dalam proses pencatatan data data yg menyangkut akuntansi,seperti jurnal,kartu piutang,kartu utang,dll<br />menghemat atk perusahaan<br />mf kalau salah..<br />
+                                            <h2 class="ez-toc-section" id="implementasi-proyek-dalam-proposal-berisi%e2%80%8b">
+                            37. Implementasi proyek dalam proposal berisi​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Penjadwalan kegiatan</p><p></p><p></p><p><strong>Penjelasan:</strong></p><p>Penjadwalan adalah kegiatan alokasi sumber-sumber atau mesin-mesin yang ada untuk menjalankan sekumpulan tugas dalam jangka waktu tertentu.</p><p></p><p>Penjadwalan adalah dasar mengalokasikan sumber daya pabrik seperti mesin dan peralatan produksi, merencanakan sumber daya manusia, pembelian material dan merencanakan proses produksi</p><br />
+                                            <h2 class="ez-toc-section" id="implementasi-proyek-dalam-proposal-berisi%e2%80%a6">
+                            38. Implementasi proyek dalam proposal berisi….</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Penjadwalan kegiatan</p><p><strong>Penjelasan:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-dengan-contoh-mengenai-sistem-nilai-pancasila-dan-implementasi-pancasila">
+                            39. jelaskan dengan contoh mengenai sistem nilai pancasila dan implementasi pancasila</h2><br />
+                        sistem nilai pancasila tampak pada perilaku kehidupan berbangsa dan bernegara yang menjunjung persatuan dan kesatuan contohnya adalah gotong royong dan implementasinya adalah diwujudkan dengan menaati undang - undang yand berlaku<br />
+                                            <h2 class="ez-toc-section" id="implementasi-proyek-dalam-proposal-berisi%e2%80%a6">
+                            40. Implementasi proyek dalam proposal berisi…</h2><br />
+                        Implementasi proyek dalam proposal berisi  Penjadwalan kegiatanPembahasan
+<p>Penjadwalan adalah kegiatan alokasi sumber-sumber atau mesin-mesin yang ada untuk menjalankan sekumpulan tugas dalam jangka waktu tertentu.</p><p>Penjadwalan adalah dasar mengalokasikan sumber daya pabrik seperti mesin dan peralatan produksi, merencanakan sumber daya manusia, pembelian material dan merencanakan proses produksi</p><p>Proposal memiliki banyak macam seperti proposal bisnis, proposal proyek, proposal penelitian dan proposal kegiatan. Proposal proyek biasanya dipakai untuk keperluan di dunia kerja dimana isinya berhubungan dengan rencana kerja dan informasi teknis. Dalam suatu proyek, proposal berfungsi sebagai dasar melakukan tender dari instansi pemerintah maupun swasta.</p><p></p>Pelajari lebih lanjut
+<p>1. Materi tentang   proposal bisnis https://brainly.co.id/tugas/21083852</p><p>  </p><p>-----------------------------
+</p><p>
+</p><p>
+</p>Detil jawaban  <p><strong>Kelas</strong>: 9
+</p><p><strong>Mapel</strong>: wirausaha
+</p><p><strong>Bab</strong>:  proposal bisnis</p><p>
+</p><p><strong>Kata Kunci</strong>:  proposal bisnis</p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/ATxeDzsUwXE?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ti</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-metodologi-penelitian-uji-beda-dua-sample-berpasangan.html">Contoh Metodologi Penelitian Uji Beda Dua Sample Berpasangan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-proposal-travel-agent.html">Contoh Proposal Travel Agent</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-layout-penelitian-plts.html">Contoh Layout Penelitian Plts</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-metode-penelitian-pengumpulan-data-pdf.html">Contoh Metode Penelitian Pengumpulan Data Pdf</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-analisa-peluang-usaha-dalam-proposal.html">Contoh Analisa Peluang Usaha Dalam Proposal</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-cover-proposal-pinjaman-modal.html">Contoh Cover Proposal Pinjaman Modal</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-proposal-kegiatan-donor-darah-di-kampus.html">Contoh Proposal Kegiatan Donor Darah Di Kampus</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-kti-penelitian-deskriptif.html">Contoh Kti Penelitian Deskriptif</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-penelitian-studi-kasus-pendekatan-kualitatif-pdf.html">Contoh Penelitian Studi Kasus Pendekatan Kualitatif Pdf</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-data-penelitian-sosisal-kuantitatif.html">Contoh Data Penelitian Sosisal Kuantitatif</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-proposal-pengajuan-sapi.html">Contoh Proposal Pengajuan Sapi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-proposal-perkebunan-kopi.html">Contoh Proposal Perkebunan Kopi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-kata-pengantar-proposal-untuk-acara-perpisahan-kelas-xii.html">Contoh Kata Pengantar Proposal Untuk Acara Perpisahan Kelas Xii</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-pembuatan-proposal-usaha-lengkap-dengan-struktur-organisasinya.html">Contoh Pembuatan Proposal Usaha Lengkap Dengan Struktur Organisasinya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-proposal-program-kerja-osis.html">Contoh Proposal Program Kerja Osis</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-laporan-penelitian-tentang-membuang-sampah-pada-mahasiswa.html">Contoh Laporan Penelitian Tentang Membuang Sampah Pada Mahasiswa</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-pertanyaan-penelitian-ke-mi.html">Contoh Pertanyaan Penelitian Ke Mi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/proposal-penggalangan-dana.html">Proposal Penggalangan Dana</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-buat-proposal-narkoba.html">Contoh Buat Proposal Narkoba</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://rumahsoal.github.io/contoh-proposal-17-agustus-untuk-pengajuan-dana.html">Contoh Proposal 17 Agustus Untuk Pengajuan Dana</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://rumahsoal.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://rumahsoal.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://rumahsoal.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://rumahsoal.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://rumahsoal.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/1d/a7/d8/1da7d80839196eccc4a624ab91e5ccbf.js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
